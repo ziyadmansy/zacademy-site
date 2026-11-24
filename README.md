@@ -1,16 +1,12 @@
-# Z Academy website
+# zacademy-site (moved)
 
-The public pages for Z Academy apps: home, privacy policy, terms of use and account deletion. Served by GitHub Pages from `main`.
+The Z Academy pages moved to the Mansy Studio site on 24 November 2026: <https://ziyadmansy.com/z-academy/> (repository `ziyadmansy-site`, folder `z-academy/`).
 
-One privacy policy, one set of terms and one account-deletion page cover every Z Academy app.
+Every page here now only redirects to its new address, so links in app builds made before the move keep working. Do not delete this repository or turn off GitHub Pages while any installed app still links here.
 
-## Adding an app
-
-Before the app's first release:
-
-1. Add it to the "Apps covered" list in `privacy/index.html`, `terms/index.html` and `delete-account/index.html` (same line in each: store name, Android package id, who it is for), and to "Our apps" in `index.html`.
-2. Change the "last updated" date (header and first section) of the privacy policy and terms.
-3. If the app collects anything the others do not, or sells something they do not, add it to the privacy policy or terms first: the pages say every app handles information in the same way.
-4. In Play Console, use `https://ziyadmansy.github.io/zacademy-site/privacy/` as the privacy policy and `https://ziyadmansy.github.io/zacademy-site/delete-account/` as the account-deletion URL.
-
-The logo files are exported from `packages/zacademy_ui/brand/` in the Z Academy app repository; the brand rules live there too (`docs/BRAND.md`).
+| Old | New |
+| --- | --- |
+| https://ziyadmansy.github.io/zacademy-site/ | https://ziyadmansy.com/z-academy/ |
+| https://ziyadmansy.github.io/zacademy-site/privacy/ | https://ziyadmansy.com/z-academy/privacy/ |
+| https://ziyadmansy.github.io/zacademy-site/terms/ | https://ziyadmansy.com/z-academy/terms/ |
+| https://ziyadmansy.github.io/zacademy-site/delete-account/ | https://ziyadmansy.com/z-academy/delete-account/ |
